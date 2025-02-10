@@ -1,0 +1,8 @@
+extends layout
+block content
+    h1 #{title}
+    u1.list-group
+    each article , i in article
+        li.list-group-item = article.title
+
+

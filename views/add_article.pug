@@ -1,0 +1,11 @@
+extends layout
+block content
+    h1 #{title}
+    form(method='POST' , action='/article/add')
+
+            label Title:
+            input.form-control(name='title' , type='text' )
+
+            label Body:
+            textarea.form-control(name='body')=article.body
+        input.btn.btn-primaary(type='submit' , value='Submit')

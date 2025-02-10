@@ -1,0 +1,10 @@
+.alert-error {
+    color: red;
+    backdrop-filter: blur(8px);
+    border-color: #1e2136;
+}
+.alert-success {
+    color: green;
+    backdrop-filter: blur(8px);
+    border-color: #1e2136;
+}
